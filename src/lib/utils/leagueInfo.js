@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p><img src="/logo.png"></p>
-  <p><b>Welcome to the Fap Fap Fap Fantasy Football</b></p>
+  <p><b>Welcome to the Fap Fap Fap League</b></p>
   <p>Trash talk, heartbreak, and J.C. forgetting to set his lineup since 2011.</p>
   <p>Welcome back, degenerates.</p>
   <p>This league has outlived most of our favorite players’ knees, several relationships, as well as Joe’s championship hopes and dreams. As always, we gather not just to crown a champion, but to mock each other mercilessly for our poor draft choices, waiver wire desperation, and general life decisions.</p>
