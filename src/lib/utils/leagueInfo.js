@@ -7,6 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
+  <p><img src="/logo.png"></p>
   <p><b>Welcome to the Fap Fap Fap Fantasy Football</b></p>
   <p>Trash talk, heartbreak, and J.C. forgetting to set his lineup since 2011.</p>
   <p>Welcome back, degenerates.</p>
