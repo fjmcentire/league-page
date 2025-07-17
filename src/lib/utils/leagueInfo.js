@@ -31,7 +31,7 @@ export const managers = [
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
        "bio": "Until Zac tells me something else to put for his bio, I'll just say he's a whiny bitch every season.
-<p>League Scoring Leader: 3 (2015,2016,2020)</p>",
+<p>League Scoring Leader: 3x (2022,2023,2024)<p>",
        "photo": "/managers/zac.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
