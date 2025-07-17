@@ -237,7 +237,7 @@
                 {#if datesActive.end}
                     <span class="infoChild">In the league from '{datesActive.start.toString().substr(2)} to '{datesActive.end.toString().substr(2)}</span>
                 {:else}
-                    <span class="infoChild">In the league since '{datesActive.start.toString().substr(2)}</span>
+                    <span class="infoChild">In the league since '{viewManager.fantasyStart.toString().substr(2)}</span>
                 {/if}
             {:else if viewManager.fantasyStart}
                 <!-- fantasyStart is an optional field -->
