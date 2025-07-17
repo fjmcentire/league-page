@@ -13,10 +13,14 @@ export const getAwards = async () => {
 	let previousSeasonID = leagueData.status == "complete" ? leagueData.league_id : leagueData.previous_league_id;
 
 	const podiums = await getPodiums(previousSeasonID);
+	const allAwards = {
+		podiums,
+		custom: customAwards
+	};
 
-	awards.update(() => podiums);
+	awards.update(() => allAwards);
 
-	return podiums;
+	return allAwards;
 }
 
 const getPodiums = async (previousSeasonID) => {
