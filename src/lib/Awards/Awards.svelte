@@ -377,4 +377,16 @@
 			<span class="genLabel clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: toilet})}>{@html getNestedTeamNamesFromTeamManagers(leagueTeamManagers, year, toilet)}</span>
 		</div>
 	{/if}
+	{#if $awards.custom && $awards.custom.length}
+  		<h2>Custom Awards</h2>
+  		<ul>
+	    {#each $awards.custom as award}
+	      <li>
+		<strong>{award.award}</strong> ({award.year})<br/>
+		Manager: {award.managerId}<br/>
+		<em>{award.description}</em>
+	      </li>
+	    {/each}
+	  </ul>
+	{/if}
 </div>
