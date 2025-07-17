@@ -1,4 +1,5 @@
 <script>
+    import { customAwards } from "$lib/utils/helperFunctions/customAwards";
     import { round } from "$lib/utils/helper";
 	import { checkIfManagerReceivedAward, getTeamNameFromTeamManagers } from "$lib/utils/helperFunctions/universalFunctions";
 
@@ -180,6 +181,11 @@
                 }
             }
         }
+	//custom awards
+	let managerCustomAwards = [];
+	$: managerCustomAwards = customAwards.filter(
+    	a => a.managerId == managerID || a.managerId == rosterID
+	);
     }
 
     $: computePodiums(rosterID);
@@ -354,6 +360,18 @@
                     <div class="subText">{award.year ? `${award.year} ` : ''}{award.week ? `Week ${award.week} ` : ''}{award.year || award.week ? ' - ' : ''}{award.extraInfo}{award.wins ? ' Wins' : ''}{award.iq ? '%' : ''}{!award.wins && !award.iq ? 'pts' : ''}</div>
                 {/if}
             </div>
+	{#if managerCustomAwards.length}
+	    {#each managerCustomAwards as custom}
+	        <div class="award">
+	            <div class="awardHeader">Custom Award</div>
+	            <div class="awardIcon">
+	                <img class="awardImage" src="/awards/custom.png" alt="custom award" />
+	            </div>
+	            <div class="awardLabel">{custom.award} ({custom.year})</div>
+	            <div class="subText">{custom.description}</div>
+	        </div>
+	    {/each}
+	{/if}
         {:else}
             <p class="sad">...nothing yet</p>
         {/each}
