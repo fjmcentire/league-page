@@ -33,6 +33,8 @@ Copy and paste into bio for NFL awards and custom Awards. Everything has to be o
 <p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: </p>
 <p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): </p>
 <p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): </p>
+
+
 */
 
 export const managers = [
@@ -63,7 +65,7 @@ export const managers = [
       "name": "Bryn",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Bryn tells me something else to put for his bio, I'll just say he's the worst thing to happen to the McEntires since the potato famine.",
+      "bio": "Until Bryn tells me something else to put for his bio, I'll just say he's the worst thing to happen to the McEntires since the potato famine.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2023</p><p><img src=\"/awards/second.png\"><img src=\"/awards/second.png\"></p><p>Second Place: 2x (2016, 2017)</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2019</p><p><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 3x(2017, 2019, 2020)</p>",
       "photo": "/managers/bryn.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
