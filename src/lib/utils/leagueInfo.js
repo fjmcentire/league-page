@@ -153,7 +153,7 @@ export const managers = [
       "name": "Bump",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Bump tells me something else to put for his bio, I'll just say his name is literally Bump, how stupid.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2011</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2022</p><p><img src=\"/awards/sacko.png\"></p><p><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2x(2011, 2016)</p><p>The Sacko (last place): 2019</p>",
+      "bio": "Until Bump tells me something else to put for his bio, I'll just say his name is literally Bump, how stupid.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2011</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2022</p><p><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2x(2011, 2016)</p><p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 2019</p>",
       "photo": "/managers/bump.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
