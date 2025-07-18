@@ -263,15 +263,15 @@
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through cash or Venmo to Blake, no personal checks, what are you 80? Dues need to be sent in before the draft. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, commissioners are going to start benching your starters.</p>
+    <p>League dues are set at ${dues}. Dues are collected via cash or Venmo or blowjobs to Blake, no personal checks, what are you 80? Dues need to be sent in before the draft. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, commissioners are going to start benching your starters.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 2}$</li>
-        <li>3rd place: {dues}$</li>
-        <li>Regular Season Champ: {dues}$</li>
+        <li>1st place: ${dues * 8}</li>
+        <li>2nd place: ${dues * 2}</li>
+        <li>3rd place: ${dues}</li>
+        <li>Regular Season Champ: ${dues}</li>
     </ul>
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
