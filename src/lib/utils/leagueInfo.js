@@ -65,7 +65,7 @@ export const managers = [
       "name": "Bryn",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Bryn tells me something else to put for his bio, I'll just say he's the worst thing to happen to the McEntires since the potato famine.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2023</p><p><img src=\"/awards/second.png\"><img src=\"/awards/second.png\"></p><p>Second Place: 2x (2016, 2017)</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2019</p><p><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 3x(2017, 2019, 2020)</p>",
+      "bio": "Until Bryn tells me something else to put for his bio, I'll just say he's the worst thing to happen to the McEntires since the potato famine.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2023</p><p><img src=\"/awards/second.png\"><img src=\"/awards/second.png\"></p><p>Second Place: 2x (2016, 2017)</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2019</p><p><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 3x(2017, 2019, 2020)</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2014</p>",
       "photo": "/managers/bryn.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -87,7 +87,7 @@ export const managers = [
       "name": "Jay",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Jay tells me something else to put for his bio, I'll just say he's a soulless ginger fuck.",
+      "bio": "Until Jay tells me something else to put for his bio, I'll just say he's a soulless ginger fuck.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/second.png\"></p><p>Second Place: 2024</p><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2023</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2024</p>",
       "photo": "/managers/jay.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "cle", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -109,7 +109,7 @@ export const managers = [
        "name": "Joe",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-       "bio": "Until Joe tells me something else to put for his bio, I'll just say he's a huge die hard eagles fan.",
+       "bio": "Until Joe tells me something else to put for his bio, I'll just say he's a huge die hard eagles fan.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/second.png\"><img src=\"/awards/second.png\"></p><p>Second Place: 2x(2011, 2021)</p><p><img src=\"/awards/third.png\"><img src=\"/awards/third.png\"><img src=\"/awards/third.png\"></p><p>Third Place: 3x(2014, 2015, 2023)</p><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2018</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2023</p>",
        "photo": "/managers/joe.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "phi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -131,7 +131,7 @@ export const managers = [
       "name": "Robby",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Robby tells me something else to put for his bio, I'll just say he's a dog shit chef and Bo Nix is the next Brock Osweiler.",
+      "bio": "Until Robby tells me something else to put for his bio, I'll just say he's a dog shit chef and Bo Nix is the next Brock Osweiler.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 2x(2016, 2021)</p><p><img src=\"/awards/second.png\"><img src=\"/awards/second.png\"></p><p>Second Place: 2x(2020, 2022)</p><p><img src=\"/awards/third.png\"><img src=\"/awards/third.png\"></p><p>Third Place: 2x(2017, 2018)</p><p><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2x(2016, 2021)</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2018</p>",
       "photo": "/managers/robby.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2016, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -153,7 +153,7 @@ export const managers = [
       "name": "Bump",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Bump tells me something else to put for his bio, I'll just say his name is literally Bump, how stupid.",
+      "bio": "Until Bump tells me something else to put for his bio, I'll just say his name is literally Bump, how stupid.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2011</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2022</p><p><img src=\"/awards/sacko.png\"></p><p><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2x(2011, 2016)</p><p>The Sacko (last place): 2019</p>",
       "photo": "/managers/bump.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -175,7 +175,7 @@ export const managers = [
        "name": "Frank",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-       "bio": "I'm the best there's ever been. I wake up in the morning and I piss excellence. I enjoy beer, long walks on the beach and watching the Rams beat the Niners in the NFC championship every night.",
+       "bio": "I'm the best there's ever been. I wake up in the morning and I piss excellence. I enjoy beer, long walks on the beach and watching the Rams beat the Niners in the NFC championship every night.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 2x(2017, 2018)</p><p><img src=\"/awards/second.png\"></p><p>Second Place: 2023</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2013</p><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2012</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2013</p><p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 2016</p>",
        "photo": "/managers/frank.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -197,7 +197,7 @@ export const managers = [
       "name": "Blake",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Blake tells me something else to put for his bio, I'll just say he's been dog shit in fantasy football since Sydney left the league and quit helping him with his team.",
+      "bio": "Until Blake tells me something else to put for his bio, I'll just say he's been dog shit in fantasy football since Sydney left the league and quit helping him with his team.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 4x(2012, 2013, 2014, 2019)</p><p><img src=\"/awards/second.png\"></p><p>Second Place: 2018</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2012</p><p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 2023</p><p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 2017</p>",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -219,7 +219,7 @@ export const managers = [
       "name": "Jacob",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Jacob tells me something else to put for his bio, I'll just say he's a degen and I still have a ton of those fuckin plastic cups you gave me.",
+      "bio": "Until Jacob tells me something else to put for his bio, I'll just say he's a degen and I still have a ton of those fuckin plastic cups you gave me.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2024</p><p><img src=\"/awards/second.png\"></p><p>Second Place: 2019</p><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2022</p><p><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 2x(2020, 2021)</p><p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 2018</p>",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2020, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -241,7 +241,7 @@ export const managers = [
        "name": "John R",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-       "bio": "Until John tells me something else to put for his bio, I'll just say he's so sick of the niner's losing superbowls he moved as far across the country as he could get.",
+       "bio": "Until John tells me something else to put for his bio, I'll just say he's so sick of the niner's losing superbowls he moved as far across the country as he could get.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/second.png\"></p><p>Second Place: 2013</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2012</p><p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 2015</p>",
        "photo": "/managers/johnr.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -263,7 +263,7 @@ export const managers = [
       "name": "Travis",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Travis tells me something else to put for his bio, I'll just say he's about as good at golf as the niner's are at winning superbowls.",
+      "bio": "Until Travis tells me something else to put for his bio, I'll just say he's about as good at golf as the niner's are at winning superbowls.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2022</p><p><img src=\"/awards/second.png\"></p><p>Second Place: 2015</p><p><img src=\"/awards/third.png\"><img src=\"/awards/third.png\"></p><p>Third Place: 2x(2020, 2021)</p><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2015</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2022</p><p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 2018</p>",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -280,12 +280,12 @@ export const managers = [
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-    {
+    {//11
       "managerID": "1251037227786436608",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "J.C.",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until JC tells me something else to put for his bio, I'll just say he's the biggest, goofiest mother fucker I've ever met.",
+      "bio": "Until JC tells me something else to put for his bio, I'll just say he's the biggest, goofiest mother fucker I've ever met.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2014</p><p><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 3x(2015, 2022, 2024)</p><p><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 6x(2013, 2019, 2020, 2022, 2023, 2024)</p>",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
