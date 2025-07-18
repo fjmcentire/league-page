@@ -23,6 +23,18 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 */
 
 // To omit an optional field, set it's value to null
+/*
+Copy and paste into bio for NFL awards and custom Awards. Everything has to be on one line though.
+
+<hr><p><b>NFL League Awards</b></p>
+<p><img src=\"/awards/champion.png\"></p><p>League Champion: </p>
+<p><img src=\"/awards/second.png\"></p><p>Second Place: </p>
+<p><img src=\"/awards/third.png\"></p><p>Third Place: </p>
+<p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: </p>
+<p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: </p>
+<p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): </p>
+<p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): </p>
+*/
 
 export const managers = [
     {//0
@@ -30,7 +42,7 @@ export const managers = [
        "name": "Zac",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-       "bio": "Until Zac tells me something else to put for his bio, I'll just say he's a whiny bitch every season.<hr><p><b>NFL League Awards</b></p><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 2x (2015, 2020)</p><p>Second Place: 0</p><p><img src=\"/awards/third.png\"><img src=\"/awards/third.png\"></p><p>Third Place: 2x (2016, 2024)</p><p>Regular Season Champ: 0</p><p><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 3x (2015, 2017, 2020)</p>  <p>The Sacko (last place): 0</p><p>The Sucko (worst scoring team): 0</p><hr>",
+	   "bio": "Until Zac tells me something else to put for his bio, I'll just say he's a whiny bitch every season.<hr><p><b>NFL League Awards</b></p><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 2x (2015, 2020)</p><p><img src=\"/awards/third.png\"><img src=\"/awards/third.png\"></p><p>Third Place: 2x (2016, 2024)</p><p><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 3x (2015, 2017, 2020)</p><hr>",
        "photo": "/managers/zac.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
