@@ -30,15 +30,7 @@ export const managers = [
        "name": "Zac",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-       "bio": 'Until Zac tells me something else to put for his bio, I\'ll just say he\'s a whiny bitch every season.
-	   <hr><p><b>NFL League Awards</b></p>
-	   <p>League Champion: 2x (2015, 2020)</p>
-	   <p>Second Place: 0</p>
-	   <p>Third Place: 2x (2016, 2024)</p>
-	   <p>Regular Season Champ: 0</p>
-	   <p>League Scoring Leader: 3x (2015, 2017, 2020)</p>
-	   <p>The Sacko (last place): 0</p>
-	   <p>The Sucko (worst scoring team): 0</p>',
+       "bio": "Until Zac tells me something else to put for his bio, I'll just say he's a whiny bitch every season.<hr><p><b>NFL League Awards</b></p><p>League Champion: 2x (2015, 2020)</p><p>Second Place: 0</p><p>Third Place: 2x (2016, 2024)</p><p>Regular Season Champ: 0</p><p>League Scoring Leader: 3x (2015, 2017, 2020)</p>  <p>The Sacko (last place): 0</p><p>The Sucko (worst scoring team): 0</p><hr>",
        "photo": "/managers/zac.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
