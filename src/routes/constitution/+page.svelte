@@ -236,12 +236,12 @@
     <p>At the end of the season the top 6 teams will make the playoffs. The first round of playoffs will commence in week 15. The top 2 will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <p>If two teams finish with the same record the tiebreakers will go as follows:</p>
 
     <ol>
-        <li>Points For</li>
+        <li>Highest Points For</li>
+        <li>Highest Points Against</li>
         <li>Head 2 Head Record</li>
-        <li>Total Points Against</li>
         <li>Coin Flip</li>
         <li>Duel to the death</li>
     </ol>
