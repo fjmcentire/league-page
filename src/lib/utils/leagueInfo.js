@@ -13,7 +13,7 @@ export const homepageText = `
   <p>Welcome back, degenerates.</p>
   <p>This league has outlived most of our favorite players’ knees, several relationships, as well as Joe’s championship hopes and dreams. As always, we gather not just to crown a champion, but to mock each other mercilessly for our poor draft choices, waiver wire desperation, and general life decisions.</p>
   <p>Good luck this season, assholes.</p>
-<p>For the mobile version <a href="https://league-page-six-tau.vercel.app/">click here</a></p>
+<p>For the mobile version <a href="https://league-page-six-tau.vercel.app/" target="_blank">click here</a></p>
 `;
 
 /*   STEP 3   */
