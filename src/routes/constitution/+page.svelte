@@ -245,6 +245,8 @@
         <li>Coin Flip</li>
         <li>Duel to the death</li>
     </ol>
+    
+    <p>If a playoff matchup ends in a tie, the higher seeded team gets the tiebreaker.</p>
 
     <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
     
