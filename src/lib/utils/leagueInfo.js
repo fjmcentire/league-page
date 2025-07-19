@@ -242,7 +242,7 @@ export const managers = [
        "name": "John",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Alexandria, VA", // (optional)
-       "bio": "Until John tells me something else to put for his bio, I'll just say he's so sick of the niner's losing superbowls he moved as far across the country as he could get.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/second.png\"></p><p>Second Place: 2013</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2012</p><p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 2015</p>",
+       "bio": "Alwasy competitive, always losing. I will always lose one game a year because I'm not paying attention to the byes for a Thursday night game.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/second.png\"></p><p>Second Place: 2013</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2012</p><p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 2015</p>",
        "photo": "/managers/johnr.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2012, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
