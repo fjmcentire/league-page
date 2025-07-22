@@ -66,20 +66,20 @@ export const managers = [
       "name": "Bryn",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Bryn tells me something else to put for his bio, I'll just say he's the worst thing to happen to the McEntires since the potato famine.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2023</p><p><img src=\"/awards/second.png\"><img src=\"/awards/second.png\"></p><p>Second Place: 2x (2016, 2017)</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2019</p><p><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 3x(2017, 2019, 2020)</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2014</p>",
+      "bio": "This page intentionally left to the forevermore winner of all fantasy football leagues until the end of all things. Here to vanquish and devour the desperation of his foes, fear must be engrossed upon all lucky enough to escape me that week. But watch, as their time approaches that inescapable convergence of all truth; nobody beats Off Daily!<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"></p><p>League Champion: 2023</p><p><img src=\"/awards/second.png\"><img src=\"/awards/second.png\"></p><p>Second Place: 2x (2016, 2017)</p><p><img src=\"/awards/third.png\"></p><p>Third Place: 2019</p><p><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 3x(2017, 2019, 2020)</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2014</p>",
       "photo": "/managers/bryn.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
     //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: null, // manager array number within this array, or null to link back to all managers page
+        name: "Joe", // Can be anything (usually your rival's name)
+        link: 3, // manager array number within this array, or null to link back to all managers page
         image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
     //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Suckin dicks is great",
+       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "philosophy": "Cobra Kai!",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
