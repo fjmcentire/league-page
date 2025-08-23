@@ -52,7 +52,7 @@ export const managers = [
        "rival": {
           name: "Bump", // Can be anything (usu lly your rival's name)
          link: 5, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/bump.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 745, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "FB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -98,7 +98,7 @@ export const managers = [
         link: null, // manager array number within this array, or null to link back to all managers page
         image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 4017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Suckin dicks is great",
@@ -120,7 +120,7 @@ export const managers = [
          link: null, // manager array number within this array, or null to link back to all managers page
          image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 4017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Suckin dicks is great",
@@ -208,7 +208,7 @@ export const managers = [
         link: 3, // manager array number within this array, or null to link back to all managers page
         image: "/managers/joe.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 4017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Suckin dicks is great",
@@ -230,7 +230,7 @@ export const managers = [
         link: null, // manager array number within this array, or null to link back to all managers page
         image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "favoritePlayer": 4017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Suckin dicks is great",
@@ -274,7 +274,7 @@ export const managers = [
         link: null, // manager array number within this array, or null to link back to all managers page
         image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 4017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Suckin dicks is great",
@@ -296,7 +296,7 @@ export const managers = [
         link: null, // manager array number within this array, or null to link back to all managers page
         image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 4017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Suckin dicks is great",
