@@ -44,22 +44,22 @@ export const managers = [
        "name": "Zac",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-	   "bio": "Until Zac tells me something else to put for his bio, I'll just say he's a whiny bitch every season.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3></p><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 2x (2015, 2020)</p><p><img src=\"/awards/third.png\"><img src=\"/awards/third.png\"></p><p>Third Place: 2x (2016, 2024)</p><p><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 3x (2015, 2017, 2020)</p>",
+	   "bio": "Question: This man required microscopic medical intervention to confirm the prescence of a vestigial reproductive organ that he refers to as his penis.<p>Answer: Who is Joe?</p><p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3></p><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 2x (2015, 2020)</p><p><img src=\"/awards/third.png\"><img src=\"/awards/third.png\"></p><p>Third Place: 2x (2016, 2024)</p><p><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 3x (2015, 2017, 2020)</p>",
        "photo": "/managers/zac.png", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
     //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
-          name: "Rival", // Can be anything (usu lly your rival's name)
-         link: null, // manager array number within this array, or null to link back to all managers page
+          name: "Bump", // Can be anything (usu lly your rival's name)
+         link: 5, // manager array number within this array, or null to link back to all managers page
          image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "Suckin dicks is great",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+       "favoritePlayer": 745, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "FB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+       "philosophy": "I approach fantasy football like I approach sucking dick. Full send.",
+      "tradingScale": 6.9, // 1 - 10
+      "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {//1
       "managerID": "607276984422191104",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
