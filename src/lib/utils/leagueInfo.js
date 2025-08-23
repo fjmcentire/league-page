@@ -198,7 +198,7 @@ export const managers = [
       "name": "Blake",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until Blake tells me something else to put for his bio, I'll just say he's been dog shit in fantasy football since Sydney left the league and quit helping him with his team.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 4x(2012, 2013, 2014, 2019)</p><p><img src=\"/awards/second.png\"></p><p>Second Place: 2018</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2012</p><p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 2023</p><p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 2017</p>",
+      "bio": "Hi I'm ''Doctor'' Blake - and by <i>doctor</i>, I mean the guy who cracks your back, sucks your dick, and gives your child my lollipop. When I'm not handing out fake medical advice, I enjoy sucking Joe's microscopic penis. <p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"><img src=\"/awards/champion.png\"></p><p>League Champion: 4x(2012, 2013, 2014, 2019)</p><p><img src=\"/awards/second.png\"></p><p>Second Place: 2018</p><p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: 2012</p><p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 2023</p><p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 2017</p>",
       "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -211,7 +211,7 @@ export const managers = [
        "favoritePlayer": 4017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Suckin dicks is great",
+      "philosophy": "I adjust my roster like I adjust my patients, while deepthroating balls",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
