@@ -286,20 +286,20 @@ export const managers = [
       "name": "J.C.",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Until JC tells me something else to put for his bio, I'll just say he's the biggest, goofiest mother fucker I've ever met.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2014</p><p><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 3x(2015, 2022, 2024)</p><p><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 6x(2013, 2019, 2020, 2022, 2023, 2024)</p>",
-      "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
+      "bio": "Known for traveling thousands of miles just to drink a beer I could’ve bought at the gas station down the street. When I’m not cosplaying as a Viking with a bow or pretending to be Jason Bourne at the shooting range, I’m losing hours of my life to board games no one else understands the rules to.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2014</p><p><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 3x(2015, 2022, 2024)</p><p><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): 6x(2013, 2019, 2020, 2022, 2023, 2024)</p>",
+      "photo": "/managers/jc.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
     //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
+        name: "Donald Trump", // Can be anything (usually your rival's name)
         link: null, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        image: "/managers/trump.png", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 4017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
     //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
     //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Suckin dicks is great",
+      "philosophy": "I treat fantasy football the same way I treat fishing — throw a bunch of bait in the water, drink a few beers, and pray something bites. Draft strategy? Nonexistent. I just shoot from long range and hope I hit the waiver wire jackpot. If my team wins, it’s skill. If my team loses, it’s clearly collusion. Either way, I’m still drinking.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
