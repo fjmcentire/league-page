@@ -107,6 +107,9 @@
         background-color: var(--TE);
     }
 
+	.FB {
+        background-color: var(--TE);
+    }
     .Picks {
         background: #73b647;
     }
