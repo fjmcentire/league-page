@@ -124,7 +124,7 @@
 		width: 65px;
 		height: 65px;
 		transform: translate(-50%, 0%);
-		top: 10px;
+		top: 5px;
 		left: 55%;
 		border-radius: 100%;
 		border: 1px solid var(--bbb);
