@@ -382,7 +382,7 @@
 	{#if sacko}
 		<div class="toiletParent">
 			<div class="header-group">
-  				<h3 style="margin: 0;">💩 The Sacko 💩</h3>
+  				<h3 style="margin: 0;">The Sacko</h3>
   				<small style="margin: 0; font-size: 0.85rem; color: #666;">(Last Place)</small>
 			</div>
     	<div class="toiletBowl">
@@ -397,7 +397,7 @@
 {#if sucko}
 		<div class="toiletParent">
 			<div class="header-group">
-  				<h3 style="margin: 0;">🍆 The Sucko 🍆</h3>
+  				<h3 style="margin: 0;">The Sucko</h3>
   				<small style="margin: 0; font-size: 0.85rem; color: #666;">(Lowest Scoring Team)</small>
 			</div>
     	<div class="toiletBowl">
