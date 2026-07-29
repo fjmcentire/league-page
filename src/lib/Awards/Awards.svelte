@@ -3,7 +3,7 @@
 	import { getAvatarFromTeamManagers, getNestedTeamNamesFromTeamManagers } from '$lib/utils/helperFunctions/universalFunctions';
 	export let podium, leagueTeamManagers;
 
-	const { year, champion, second, third, divisions, toilet } = podium;
+	const { year, champion, second, third, divisions, toilet, sucko, sacko } = podium;
 </script>
 
 <style>
@@ -377,4 +377,40 @@
 			<span class="genLabel clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: toilet})}>{@html getNestedTeamNamesFromTeamManagers(leagueTeamManagers, year, toilet)}</span>
 		</div>
 	{/if}
+	{#if sacko}
+<div class="toiletParent">
+
+    <h3>💀 The Sacko</h3>
+
+    <div class="toiletBowl">
+        <img
+            src={getAvatarFromTeamManagers(               gotoManager({
+                    year,
+                    leagueTeamManagers,
+                    rosterID: sacko
+                })}
+            alt="sacko"
+        />
+
+        /toilet-bowl-2.png
+    </div>
+
+    <span
+        class="genLabel clickable"
+        onclick={() =>
+            gotoManager({
+                year,
+                leagueTeamManagers,
+                rosterID: sacko
+            })}
+    >
+        {@html getNestedTeamNamesFromTeamManagers(
+            leagueTeamManagers,
+            year,
+            sacko
+        )}
+    </span>
+
+</div>
+{/if}
 </div>
