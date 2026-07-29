@@ -56,7 +56,24 @@ const getPodiums = async (previousSeasonID) => {
 
 		const toiletBowlMatch = losersData.filter(m => m.r == toiletRounds && (!m.t1_from || m.t1_from.w))[0];
 		const toilet = toiletBowlMatch.w
+		
+		const suckoRoster = previousRosters.reduce((lowest, current) => {
+	    const currentPts =
+	        current.settings.fpts +
+	        (current.settings.fpts_decimal || 0) / 100;
+	
+	    const lowestPts =
+	        lowest.settings.fpts +
+	        (lowest.settings.fpts_decimal || 0) / 100;
+	
+	    return currentPts < lowestPts ? current : lowest;
+		});
 
+		const sucko = suckoRoster.roster_id;
+		
+		const sackoMatch = losersData.find(m => m.p === 5);
+		const sacko = sackoMatch?.l;
+		
 		if(!champion) {
 			continue;
 		}
@@ -67,7 +84,9 @@ const getPodiums = async (previousSeasonID) => {
 			second,
 			third,
 			divisions: divisionArr,
-			toilet
+			toilet,
+			sucko,
+			sacko
 		}
 		podiums.push(podium);
 	}
