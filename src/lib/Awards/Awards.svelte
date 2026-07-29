@@ -383,7 +383,7 @@
     	<h3>💀 The Sacko</h3>
 
     	<div class="toiletBowl">
-        	<img src="{getAvatarFromTeamManagers(leagueTeamManagers, sacko, yea)}" class="sacko clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sacko})} alt = "The sacko" />
+        	<img src="{getAvatarFromTeamManagers(leagueTeamManagers, sacko, year)}" class="sacko clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sacko})} alt = "The sacko" />
         	<img src="/toilet-bowl-2.png" class="sacko" alt="The Sacko" />
     </div>
 
