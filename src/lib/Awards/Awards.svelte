@@ -386,7 +386,7 @@
   				<small style="margin: 0; font-size: 0.85rem; color: #666;">(Last Place)</small>
 			</div>
     	<div class="toiletBowl">
-        	<img src="{getAvatarFromTeamManagers(leagueTeamManagers, sacko, year)}" class="toiletWinner clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sacko})} alt = "The sacko" />
+        	<img src="{getAvatarFromTeamManagers(leagueTeamManagers, sacko, year)}" class="toiletWinner clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sacko})} alt = "The sacko" /><br><br>
         	<img src="/awards/sacko.png" class="toilet" alt="The Sacko" />
     </div>
 
@@ -402,7 +402,7 @@
 			</div>
     	<div class="toiletBowl">
         	<img src="{getAvatarFromTeamManagers(leagueTeamManagers, sucko, year)}" class="toiletWinner clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sucko})} alt = "The sucko" />
-        	<img src="/awards/toilet.png" class="toilet" alt="The Sucko" />
+        	<img src="/toilet-bowl-2.png" class="toilet" alt="The Sucko" />
     </div>
 
     <span class="genLabel clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sucko})}>{@html getNestedTeamNamesFromTeamManagers(leagueTeamManagers, year, sucko)}</span>
