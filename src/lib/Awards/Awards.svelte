@@ -378,38 +378,16 @@
 		</div>
 	{/if}
 	{#if sacko}
-<div class="toiletParent">
+		<div class="toiletParent">
 
-    <h3>💀 The Sacko</h3>
+    	<h3>💀 The Sacko</h3>
 
-    <div class="toiletBowl">
-        <img
-            src={getAvatarFromTeamManagers(               gotoManager({
-                    year,
-                    leagueTeamManagers,
-                    rosterID: sacko
-                })}
-            alt="sacko"
-        />
-
-        /toilet-bowl-2.png
+    	<div class="toiletBowl">
+        	<img src="{getAvatarFromTeamManagers(leagueTeamManagers, sacko, yea)}" class="sacko clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sacko})} alt = "The sacko" />
+        	<img src="/toilet-bowl-2.png" class="sacko" alt="The Sacko" />
     </div>
 
-    <span
-        class="genLabel clickable"
-        onclick={() =>
-            gotoManager({
-                year,
-                leagueTeamManagers,
-                rosterID: sacko
-            })}
-    >
-        {@html getNestedTeamNamesFromTeamManagers(
-            leagueTeamManagers,
-            year,
-            sacko
-        )}
-    </span>
+    <span class="genLabel clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sacko})}>{@html getNestedTeamNamesFromTeamManagers(leagueTeamManagers, year, sacko)}</span>
 
 </div>
 {/if}
