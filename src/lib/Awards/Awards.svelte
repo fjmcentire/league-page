@@ -374,7 +374,7 @@
 
 			<div class="toiletBowl">
 				<img src="{getAvatarFromTeamManagers(leagueTeamManagers, toilet, year)}" class="toiletWinner clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: toilet})} alt="toilet bowl winner" />
-				<img src="/toilet-bowl-2.png" class="toilet" alt="toilet bowl" />
+				<img src="/awards/loserbracket.png" class="toilet" alt="toilet bowl" />
 			</div>
 			<span class="genLabel clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: toilet})}>{@html getNestedTeamNamesFromTeamManagers(leagueTeamManagers, year, toilet)}</span>
 		</div>
@@ -391,6 +391,21 @@
     </div>
 
     <span class="genLabel clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sacko})}>{@html getNestedTeamNamesFromTeamManagers(leagueTeamManagers, year, sacko)}</span>
+
+</div>
+{/if}
+{#if sucko}
+		<div class="toiletParent">
+			<div class="header-group">
+  				<h3 style="margin: 0;">🍆 The Sucko 🍆</h3>
+  				<small style="margin: 0; font-size: 0.85rem; color: #666;">(Lowest Scoring Team)</small>
+			</div>
+    	<div class="toiletBowl">
+        	<img src="{getAvatarFromTeamManagers(leagueTeamManagers, sucko, year)}" class="toiletWinner clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sucko})} alt = "The sucko" />
+        	<img src="/awards/toilet.png" class="toilet" alt="The Sucko" />
+    </div>
+
+    <span class="genLabel clickable" onclick={() => gotoManager({year, leagueTeamManagers, rosterID: sucko})}>{@html getNestedTeamNamesFromTeamManagers(leagueTeamManagers, year, sucko)}</span>
 
 </div>
 {/if}
