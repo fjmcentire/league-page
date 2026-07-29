@@ -33,7 +33,7 @@ Copy and paste into bio for NFL awards and custom Awards. Everything has to be o
 <p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: </p>
 <p><img src=\"/awards/generic.png\"></p><p>League Scoring Leader: </p>
 <p><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): </p>
-<p><img src=\"/awards/toilet.png\"></p><p>The Sucko (lowest scoring team): </p>
+<p><img src=\"/awards/sucko.png\"></p><p>The Sucko (lowest scoring team): </p>
 
 
 */
@@ -286,7 +286,7 @@ export const managers = [
       "name": "J.C.",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
-      "bio": "Known for traveling thousands of miles just to drink a beer I could’ve bought at the gas station down the street. When I’m not cosplaying as a Viking with a bow or pretending to be Jason Bourne at the shooting range, I’m losing hours of my life to board games no one else understands the rules to.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2014</p><p><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 3x(2015, 2022, 2024)</p><p><img src=\"/awards/toilet.png\"><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"></p><p>The Sucko (lowest scoring team): 6x(2013, 2019, 2020, 2022, 2023, 2024)</p>",
+      "bio": "Known for traveling thousands of miles just to drink a beer I could’ve bought at the gas station down the street. When I’m not cosplaying as a Viking with a bow or pretending to be Jason Bourne at the shooting range, I’m losing hours of my life to board games no one else understands the rules to.<p><h3 class=\"svelte-106z4mu\">NFL League Awards</h3><p><img src=\"/awards/record-1.png\"></p><p>Regular Season Champ: 2014</p><p><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"><img src=\"/awards/sacko.png\"></p><p>The Sacko (last place): 3x(2015, 2022, 2024)</p><p><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"><img src=\"/awards/sucko.png\"></p><p>The Sucko (lowest scoring team): 6x(2013, 2019, 2020, 2022, 2023, 2024)</p>",
       "photo": "/managers/jc.png", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
