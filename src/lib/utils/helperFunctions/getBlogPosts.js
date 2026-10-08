@@ -105,8 +105,32 @@ const genElementStart = (nodeType, indent, target) => {
             paragraphText = '<hr />'
             break;
         case 'embedded-asset-block':
-            paragraphText = `<br /><div class="blogImg"><img class="innerImg" src="${getImg(target)}" alt="${target.fields.title}" /></div>`
-            break;
+    		if (target.fields.file.contentType === 'video/mp4') {
+		        paragraphText = `
+		            <br />
+		            <div class="blogVideo">
+		                <video class="innerVideo" controls preload="metadata">
+		                    <source
+		                        src="https:${target.fields.file.url}"
+		                        type="video/mp4"
+		                    />
+		                    Your browser does not support HTML5 video.
+		                </video>
+		            </div>
+		        `;
+		    } else {
+		        paragraphText = `
+		            <br />
+		            <div class="blogImg">
+		                <img
+		                    class="innerImg"
+		                    src="${getImg(target)}"
+		                    alt="${target.fields.title}"
+		                />
+		            </div>
+		        `;
+		    }
+		    break;
     
         default:
             break;
