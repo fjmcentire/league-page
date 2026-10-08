@@ -172,7 +172,7 @@
 	
 	:global(.body .innerVideo) {
 	    width: 100%;
-	    max-width: 800px;
+	    max-width: 600px;
 	    height: auto;
 	}
 
