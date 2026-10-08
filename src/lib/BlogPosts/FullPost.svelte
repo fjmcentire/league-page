@@ -163,6 +163,18 @@
         background-color: var(--blueOne);
         color: #fff;
     }
+	:global(.body .blogVideo) {
+	    margin: 1em 0;
+	    padding: 0 2em;
+	    display: flex;
+	    justify-content: center;
+	}
+	
+	:global(.body .innerVideo) {
+	    width: 100%;
+	    max-width: 800px;
+	    height: auto;
+	}
 
     .divider {
         border:0;
